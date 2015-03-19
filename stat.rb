@@ -3,7 +3,7 @@ file = File.new("./data.csv", "r")
 data_string = file.read
 file.close
 
-#convert string of data into an array of data
+#convert string of data into an array
 data_points = data_string.split("\n")
 
 # go through each data point and fetch the needed values by splitting it into an array of data values
